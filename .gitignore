@@ -4,6 +4,7 @@ venv/
 # Bytecode
 __pycache__/
 *.py[cod]
+.pytest_cache
 
 # Env files
 .env
