@@ -1,6 +1,10 @@
 name: Selenium UI Tests
 
-on: [push, pull_request]
+# on: [push, pull_request]
+
+# Run pipeline manually
+on:
+  workflow_dispatch:
 
 jobs:
   selenium-tests:
