@@ -2,8 +2,6 @@
 
 ![Selenium Tests](https://github.com/mattj3/selenium-ui-testing/actions/workflows/ci.yml/badge.svg)
 
-## Overview
-
 This project demonstrates a Selenium-based UI test framework for [saucedemo.com](https://www.saucedemo.com) using:
 
 - Python + Selenium + Pytest
