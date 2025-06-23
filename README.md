@@ -82,3 +82,12 @@ This project is configured with a GitHub Actions workflow that runs your Seleniu
 Secrets required: `UI_USERNAME` and `UI_PASSWORD` must be configured in your repository settings under Settings -> Secrets and variables -> Actions -> Repository secrets.
 
 The workflow uses a Linux runner with Chrome pre-installed, and Selenium manages ChromeDriver automatically.
+
+## Future Enhancements
+
+These improvements are not currently implemented but could add future value:
+
+- Capture screenshots on test failure and upload them as GitHub Actions artifacts
+- Dockerize the project
+- Add support for additional browsers (e.g., Firefox, Edge)
+- Create a `utils/` folder for reusable components (e.g., screenshot helper, wait utilities)
