@@ -73,6 +73,8 @@ pytest
 
 Open `reports/report.html` in your browser.
 
+<img width="1430" alt="Screenshot 2025-06-23 at 3 04 41 PM" src="https://github.com/user-attachments/assets/f8e7c108-a7fb-4bc7-a612-98138f87d4e2" />
+
 ## GitHub Actions
 
 This project is configured with a GitHub Actions workflow that runs your Selenium tests automatically on push and pull requests.
