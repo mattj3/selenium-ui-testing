@@ -1,5 +1,7 @@
 # Selenium UI Automation with Python + Pytest + GitHub Actions
 
+![CI](https://github.com/your-username/your-repo/actions/workflows/ci.yml/badge.svg)
+
 ## Overview
 
 This project demonstrates a Selenium-based UI test framework for [saucedemo.com](https://www.saucedemo.com) using:
