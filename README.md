@@ -1,6 +1,6 @@
 # Selenium UI Automation with Python + Pytest + GitHub Actions
 
-![CI](https://github.com/your-username/your-repo/actions/workflows/ci.yml/badge.svg)
+![Selenium Tests](https://github.com/mattj3/selenium-ui-testing/actions/workflows/ci.yml/badge.svg)
 
 ## Overview
 
