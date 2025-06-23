@@ -7,6 +7,13 @@ from dotenv import load_dotenv
 # Load local .env file (only works locally, not in CI)
 load_dotenv()
 
+REQUIRED_ENV_VARS = ["UI_USERNAME", "UI_PASSWORD"]
+
+# Fail fast if required env vars are missing
+for var in REQUIRED_ENV_VARS:
+    if not os.getenv(var):
+        raise RuntimeError(f"Required environment variable '{var}' is missing.")
+
 @pytest.fixture(scope="session")
 def base_url():
     return os.getenv("BASE_URL", "https://www.saucedemo.com")
