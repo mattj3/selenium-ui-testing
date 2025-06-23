@@ -2,7 +2,7 @@
 
 ![Selenium Tests](https://github.com/mattj3/selenium-ui-testing/actions/workflows/ci.yml/badge.svg)
 
-This project demonstrates a Selenium-based UI test framework for [saucedemo.com](https://www.saucedemo.com) using:
+A Selenium-based UI test framework for [saucedemo.com](https://www.saucedemo.com) using:
 
 - Python + Selenium + Pytest
 - Headless Chrome browser
@@ -14,9 +14,8 @@ This project demonstrates a Selenium-based UI test framework for [saucedemo.com]
 ```
 selenium-ui-testing/
 │
-├── tests/
-│ ├── test_login.py
-│ └── conftest.py
+├── .github/
+│ └── workflows/tests.yml
 │
 ├── pages/
 │ └── login_page.py
@@ -24,12 +23,15 @@ selenium-ui-testing/
 ├── reports/
 │ └── (generated test reports)
 │
-├── requirements.txt
+├── tests/
+│ ├── test_login.py
+│ └── conftest.py
+│
+├── .env
+├── .gitignore
 ├── pytest.ini
-├── .github/
-│ └── workflows/tests.yml
 ├── README.md
-└── .env (local)
+└── requirements.txt
 ```
 
 ## Setup and Run Locally
@@ -75,6 +77,6 @@ Open `reports/report.html` in your browser.
 
 This project is configured with a GitHub Actions workflow that runs your Selenium tests automatically on push and pull requests.
 
-Secrets required: `UI_USERNAME` and `UI_PASSWORD` must be configured in your repository settings under Settings > Secrets and variables > Actions > Repository secrets.
+Secrets required: `UI_USERNAME` and `UI_PASSWORD` must be configured in your repository settings under Settings -> Secrets and variables -> Actions -> Repository secrets.
 
 The workflow uses a Linux runner with Chrome pre-installed, and Selenium manages ChromeDriver automatically.
