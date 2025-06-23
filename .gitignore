@@ -1,0 +1,12 @@
+# Ignore Python venv
+venv/
+
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Env files
+.env
+
+# Do not include reports
+/reports
