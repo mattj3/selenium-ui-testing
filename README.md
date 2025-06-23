@@ -34,7 +34,7 @@ selenium-ui-testing/
 └── .env (local)
 ```
 
-## Setup & Run Locally
+## Setup and Run Locally
 
 1. Install dependencies:
 
@@ -52,9 +52,9 @@ pytest
 
 3. View report:
 
-Open reports/report.html in your browser.
+Open `reports/report.html` in your browser.
 
-## Run with Docker
+## Run With Docker
 
 ```bash
 docker build -t selenium-ui .
